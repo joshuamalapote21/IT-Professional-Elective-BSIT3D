@@ -1,1 +1,22 @@
+public class ArithmeticIfElse {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+        int sum = a + b;
 
+        // If-else condition
+        if (sum > 15) {
+            System.out.println("The sum is greater than 15.");
+        } else {
+            System.out.println("The sum is 15 or less.");
+        }
+
+        // Another example with subtraction
+        int diff = a - b;
+        if (diff == 5) {
+            System.out.println("The difference is exactly 5.");
+        } else {
+            System.out.println("The difference is not 5.");
+        }
+    }
+}
